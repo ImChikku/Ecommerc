@@ -1,0 +1,22 @@
+1.start wamp/xammp server for my sql connection 
+---Database---
+Create database nodejs;
+
+Use database;
+
+Create table loginuser (
+user_id int not null primary key auto_increment,
+user_name varchar(255) not null,
+user_pass varchar(255) not null,
+email varchar(255) not null,
+mobile int not null);
+
+Insert into table loginuser values(
+1,'chikku','12345','chikku@gmail.com',9876543210);
+
+2. Click login 
+enter the email : "chikku@gmail.com"
+Enter the password: "12345"
+
+
+
