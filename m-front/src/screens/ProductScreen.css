@@ -1,0 +1,29 @@
+.single-prod {
+    padding: 20px;
+}
+
+.single-prod img {
+    width: 400px;
+    border: 1px solid silver;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 20px 0px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red
+}
