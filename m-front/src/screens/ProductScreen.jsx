@@ -24,8 +24,8 @@ export default function ProductScreen(props){
 
     return (<div className='single-prod'>
       <div className="row top">
-        <div className="col-2">
-          <img className="large" src={product.image} alt={product.name}></img>
+        <div className="col-2" >
+          <img className="large"  src={product.image} alt={product.name}></img>
         </div>
         <div className="col-1">
           <ul>
@@ -35,7 +35,7 @@ export default function ProductScreen(props){
             <li><Rating ratings={product.ratings}
             numReviews={product.numReviews}></Rating>
             </li>
-            <li>Price : ${product.price}</li>
+            <li>Price : Rs.{product.price}/-</li>
             <li>Description:<p>{product.description}</p></li>
           </ul>
         </div>
@@ -45,7 +45,7 @@ export default function ProductScreen(props){
             <li>
               <div className="row">
                 <div>Price</div>
-                <h2 className="price">${product.price}</h2>
+                <h2 className="price">Rs.{product.price}/-</h2>
               </div>
             </li>
             <li>

@@ -10,7 +10,7 @@ function Products() {
         <div className="prod-card">
           <img src={d.image} alt="#" />
           <h3>{d.name}</h3>
-          <h2>${d.price}</h2>
+          <h2>Rs.{d.price}/-</h2>
           <p>{d.description}</p>
           <Link className="btn nav-reg" to={`/product/${d.id}`}>
             Buy the Product
